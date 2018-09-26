@@ -1,0 +1,10 @@
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\obj\Debug\WebServicePersona.vbproj.CoreCompileInputs.cache
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\bin\Debug\WebServicePersona.dll.config
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\bin\Debug\WebServicePersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\bin\Debug\WebServicePersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\bin\Debug\ModelABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\bin\Debug\ModelABMLPersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\obj\Debug\WebServicePersona.vbprojResolveAssemblyReference.cache
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\obj\Debug\WebServicePersona.vbproj.CopyComplete
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\obj\Debug\WebServicePersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebServicePersona\obj\Debug\WebServicePersona.pdb
