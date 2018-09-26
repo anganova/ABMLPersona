@@ -1,0 +1,6 @@
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\bin\Debug\ModelABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\bin\Debug\ModelABMLPersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\obj\Debug\ModelABMLPersona.vbproj.CoreCompileInputs.cache
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\obj\Debug\ModelABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\obj\Debug\ModelABMLPersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\ModelABMLPersona\obj\Debug\ModelABMLPersona.vbprojResolveAssemblyReference.cache

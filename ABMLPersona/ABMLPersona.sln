@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModelABMLPersona", "ModelABMLPersona\ModelABMLPersona.vbproj", "{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebServicePersona", "WebServicePersona\WebServicePersona.vbproj", "{7871C17E-87A7-4A5B-B181-A53CE11A6FD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A} = {CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebFormsABMLPersona", "WebFormsABMLPersona\WebFormsABMLPersona.vbproj", "{49776C0E-D778-4337-AC6A-078390C354ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A} = {CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WinFormsABMLPersona", "WinFormsABMLPersona\WinFormsABMLPersona.vbproj", "{860E5E88-2D67-4102-A0C4-31E8AD88E3E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7871C17E-87A7-4A5B-B181-A53CE11A6FD4} = {7871C17E-87A7-4A5B-B181-A53CE11A6FD4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD32BFC1-FFF5-4C60-B62E-E8EB314C428A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7871C17E-87A7-4A5B-B181-A53CE11A6FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7871C17E-87A7-4A5B-B181-A53CE11A6FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7871C17E-87A7-4A5B-B181-A53CE11A6FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7871C17E-87A7-4A5B-B181-A53CE11A6FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49776C0E-D778-4337-AC6A-078390C354ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49776C0E-D778-4337-AC6A-078390C354ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49776C0E-D778-4337-AC6A-078390C354ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49776C0E-D778-4337-AC6A-078390C354ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860E5E88-2D67-4102-A0C4-31E8AD88E3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860E5E88-2D67-4102-A0C4-31E8AD88E3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860E5E88-2D67-4102-A0C4-31E8AD88E3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860E5E88-2D67-4102-A0C4-31E8AD88E3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09DB48A2-87F4-44B9-BEB6-CB6A8DD395D5}
+	EndGlobalSection
+EndGlobal
