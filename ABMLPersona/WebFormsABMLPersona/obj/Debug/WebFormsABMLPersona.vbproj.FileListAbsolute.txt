@@ -1,0 +1,10 @@
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\bin\WebFormsABMLPersona.dll.config
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\bin\WebFormsABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\bin\WebFormsABMLPersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\bin\ModelABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\bin\ModelABMLPersona.pdb
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\obj\Debug\WebFormsABMLPersona.vbprojResolveAssemblyReference.cache
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\obj\Debug\WebFormsABMLPersona.vbproj.CoreCompileInputs.cache
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\obj\Debug\WebFormsABMLPersona.vbproj.CopyComplete
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\obj\Debug\WebFormsABMLPersona.dll
+C:\Users\Cristian\source\repos\ABMLPersona\WebFormsABMLPersona\obj\Debug\WebFormsABMLPersona.pdb
