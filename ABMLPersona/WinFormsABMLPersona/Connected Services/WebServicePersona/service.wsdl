@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceABMLPersona" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ModelABMLPersona" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceABMLPersona_ListadoPersonas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoPersonas" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_ListadoPersonas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListadoPersonasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Existe_InputMessage">
+    <wsdl:part name="parameters" element="tns:Existe" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Existe_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExisteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Grabar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Grabar" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Grabar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GrabarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Borrar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Borrar" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Borrar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BorrarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_BuscarPersona_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarPersona" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_BuscarPersona_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarPersonaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Actualizar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Actualizar" />
+  </wsdl:message>
+  <wsdl:message name="IServiceABMLPersona_Actualizar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceABMLPersona">
+    <wsdl:operation name="ListadoPersonas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/ListadoPersonas" message="tns:IServiceABMLPersona_ListadoPersonas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/ListadoPersonasResponse" message="tns:IServiceABMLPersona_ListadoPersonas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Existe">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/Existe" message="tns:IServiceABMLPersona_Existe_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/ExisteResponse" message="tns:IServiceABMLPersona_Existe_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Grabar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/Grabar" message="tns:IServiceABMLPersona_Grabar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/GrabarResponse" message="tns:IServiceABMLPersona_Grabar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Borrar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/Borrar" message="tns:IServiceABMLPersona_Borrar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/BorrarResponse" message="tns:IServiceABMLPersona_Borrar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarPersona">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/BuscarPersona" message="tns:IServiceABMLPersona_BuscarPersona_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/BuscarPersonaResponse" message="tns:IServiceABMLPersona_BuscarPersona_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Actualizar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceABMLPersona/Actualizar" message="tns:IServiceABMLPersona_Actualizar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceABMLPersona/ActualizarResponse" message="tns:IServiceABMLPersona_Actualizar_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceABMLPersona" type="tns:IServiceABMLPersona">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListadoPersonas">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/ListadoPersonas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Existe">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/Existe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Grabar">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/Grabar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Borrar">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/Borrar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarPersona">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/BuscarPersona" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Actualizar">
+      <soap:operation soapAction="http://tempuri.org/IServiceABMLPersona/Actualizar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceABMLPersona">
+    <wsdl:port name="BasicHttpBinding_IServiceABMLPersona" binding="tns:BasicHttpBinding_IServiceABMLPersona">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WebServicePersona/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
