@@ -1,5 +1,5 @@
 # ABMLPersona
-Alta, baja, modificación y listado de Personas
+Alta, baja, modificación y listado de Personas.
 
 Consideraciones:
   _ Hubiera utilizado Entity Framework pero no estaba especificado.
